@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    tools:context=".customview">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="183dp"
+        android:layout_height="98dp"
+        android:text="@string/txtdesc"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_below="@id/description"
+        android:layout_width="185dp"
+        android:layout_height="34dp"
+        android:text="@string/txtcost"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/buybtn"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/cost"
+        android:text="@string/btnbuy"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_toEndOf="@id/description"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_width="201dp"
+        android:layout_height="185dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCustomView</string>
+    <string name="txtdesc">Description</string>
+    <string name="txtcost">Cost</string>
+    <string name="btnbuy">Купити</string>
+    <string name="title">Перелік товарів</string>
+</resources>
